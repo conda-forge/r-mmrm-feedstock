@@ -1,4 +1,4 @@
-{% set version = "0.3.18" %}
+{% set version = "0.3.19" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mmrm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mmrm/mmrm_{{ version }}.tar.gz
-  sha256: e6de6825b6b1ac503c233300f4e7222b7fa1ce03f8f548f33f15e135391a057e
+  sha256: 98a3f6cae3005257e349609e16968b7fd7a6f18d1d890bcc268b79b315111523
 
 build:
   number: 0
